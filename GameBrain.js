@@ -1,3 +1,4 @@
+window.onload = () => {
 rollDice = document.getElementById("roll-dice");
 dice = document.getElementById("dice");
 current1 = document.getElementById("current-1");
@@ -124,4 +125,5 @@ scoreTwo.innerText = 0;
 current1.innerText = 0;
 current2.innerText = 0;
 PlayerChanged();
+}
 }
